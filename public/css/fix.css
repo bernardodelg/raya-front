@@ -1,0 +1,531 @@
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button {  
+   opacity: 1;
+}
+
+tr.noBorder td:nth-child(1n+1) {
+  border-top:1px red !important;
+}
+
+tr.noBorder td {
+  border-style:hidden !important;
+  height: 50px;
+}
+
+.react-datepicker-popper {
+  z-index: 1000 !important;
+}
+
+.react-datepicker-wrapper{
+  width: 100% !important;
+}
+
+.text-seller{
+  position: absolute;
+  top:31%;
+  text-align:center !important;
+  left:45%;
+  margin-left:-25px;
+}
+
+.form-fix-login{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.page-item.active .page-link {
+    z-index: 3;
+    color: #fff;
+    background-color: #a5cd39 !important;
+    border-color: #a5cd39 !important;
+}
+.pagination>li>a, .pagination>li>span{
+  color: #676767;
+}
+
+.center-pagination {
+    display: grid;
+    justify-content: end;
+    align-items: end;
+}
+
+.product-selected{
+  width: 55%;
+  border-bottom:solid 3px #a5cd39;
+  /* margin: 0 auto; */
+  /* margin-left: 30%; */
+}
+
+.link-active{
+  color:#a5cd39 !important;
+}
+
+.link-no-active{
+  color:black !important;
+}
+
+.showPrice{
+  display: block;
+}
+
+.hidePrice{
+  display: none;
+}
+
+.tether-element{
+  z-index: 2000 !important;
+}
+
+.listUnits{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.listUnits li {
+  float: left;
+  padding: 10px;
+  text-align: center;
+}
+
+.unitsData{
+  width: 400px;
+}
+
+.rc-time-picker{
+  display: none !important;
+}
+
+.calendarButton {
+  display: none !important;
+}
+
+.collapse .uk-form-large{
+  display: none;
+}
+
+.button-mobile-search .uk-dropdown:hover{
+  display: block;
+}
+
+.price-modal{
+  display: flex;
+}
+
+ .contentnatural ul li {
+    text-align: left;
+  }
+
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  .collapse .uk-form-large{
+    display: none;
+  }
+
+  .outstandingProducts{
+    margin-top: 500px !important;
+  }
+
+  .content-img-slider{
+    position: absolute !important;
+    top: 0px;
+    left: 0px;
+    height: 500px;
+    width: 100%;
+    /* background-color: white;
+    border: 1px solid red; */
+  }
+
+  .force-height{
+    height: 500px !important;
+  }
+
+  .img-slider{
+    max-width: 100%; 
+    max-height: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+    
+}
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+  .collapse .uk-form-large{
+    display: none;
+  }
+
+  .noso_mobile{display:block !important;}
+  .noso_desktop{display:none !important;}
+
+  .norotus p {
+    font-size: 15px !important;
+    line-height: 19px !important;
+    text-align: justify;
+    padding-left: 60px;
+    margin-top: -16px;
+  }
+
+  .noflotright {
+    float: none;
+    margin: 0 auto;
+  }
+
+
+
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    .form-fix-login{
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .collapse .uk-form-large{
+      display: block;
+    }
+
+    .noso_mobile{display:block !important;}
+    .noso_desktop{display:none !important;}
+
+  .contentnatural ul li article {
+    display: flex;
+    vertical-align: top;
+    margin: 14px 0 0 10px;
+  }
+
+  #form-checkout:first-child{
+    padding-top: 15px !important;
+  }
+
+  #form-checkout > div{
+    padding: 8px !important;
+  }
+
+  .custom-popper{
+    position: absolute;
+      will-change: transform;
+      top: 0px;
+      left: 0px;
+      transform: translate3d(40px, -320px, 0px) !important;
+      z-index: 10000;
+  }
+
+  .outstandingProducts{
+    margin-top: 412px !important;
+  }
+
+  .content-img-slider{
+    position: absolute !important;
+    top: 104px;
+    left: 0px;
+    height: 300px !important;
+    width: 100%;
+    /* background-color: white; */
+    /* border: 1px solid purple; */
+  }
+
+  .img-slider{
+  
+    display: block !important;
+    height: auto !important;
+    float: left;
+    /* height: 170px !important; */
+    height: 298px !important;
+    width: 100% !important;
+    border: 0;
+    /* margin-top: 20px; */
+  }
+
+  .force-height{
+    height: 404px !important;
+  }
+
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+    .form-fix-login{
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .collapse .uk-form-large{
+      display: block;
+    }
+
+    .noso_mobile{display:block !important;}
+    .noso_desktop{display:none !important;}
+
+
+  .contentnatural ul li article {
+    display: flex;
+    vertical-align: top;
+    margin: 14px 0 0 10px;
+    
+  }
+
+  #form-checkout:first-child{
+    padding-top: 15px !important;
+  }
+
+  #form-checkout > div{
+    padding: 8px !important;
+  }
+
+  .datepicker-input{
+    width: 100% !important;
+  }
+
+  }
+
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+
+    .outstandingProducts{
+      margin-top: 412px !important;
+    }
+  
+    .content-img-slider{
+      position: absolute !important;
+      top: 126px;
+      left: 0px;
+      height: 250px;
+      width: 100%;
+      /* background-color: white; */
+      /* border: 1px solid green; */
+    }
+
+    .img-slider{
+  
+      display: block !important;
+      height: auto !important;
+      float: left;
+      /* height: 170px !important; */
+      height: 247px !important;
+      width: 100% !important;
+      border: 0;
+      /* margin-top: 20px; */
+    }
+  
+    .force-height{
+      height: 380px !important;
+    }
+
+    .login-form{
+        width: 90% !important;
+    }
+
+    .form-fix-login{
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .collapse .uk-form-large{
+      display: block;
+    }
+
+  .contentnatural ul li article {
+    display: flex;
+    vertical-align: top;
+    margin: 14px 0 0 10px;
+    
+  }
+
+  #form-checkout:first-child{
+    padding-top: 15px !important;
+  }
+
+  #form-checkout > div{
+    padding: 8px !important;
+  }
+
+  .custom-popper{
+    position: absolute;
+      will-change: transform;
+      top: 0px;
+      left: 0px;
+      transform: translate3d(40px, -320px, 0px) !important;
+      z-index: 10000;
+  }
+
+
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+
+    .custom-popper{
+      position: absolute;
+        will-change: transform;
+        top: 0px;
+        left: 0px;
+        transform: translate3d(40px, -320px, 0px) !important;
+        z-index: 10000;
+    }
+
+    
+    .login-form{
+        width: 90% !important;
+    }
+
+    .form-fix-login{
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .collapse .uk-form-large{
+      display: block;
+    }
+
+    .price-modal{
+      /* display: block; */
+      text-align: center;
+      margin-top: -7px;
+    }
+    
+    .extrainput {
+      width: auto;
+    }
+
+    .noso_mobile{display:block !important;}
+    .noso_desktop{display:none !important;}
+
+    .contentnatural ul li article {
+      display: flex !important;
+      vertical-align: top;
+      margin: 14px 0 0 10px;
+    }
+
+    .email-footer{
+      font-size: 14px !important;
+    }
+
+    #form-checkout:first-child{
+      padding-top: 15px !important;
+    }
+  
+    #form-checkout > div{
+      padding: 8px !important;
+    }
+
+    #table-carrito{
+      position: relative;
+      display: inline-block;
+      overflow-x: auto;
+    }
+
+
+    .main-products {
+        background: #ededed;
+        width: 100%;
+        padding: 0px 0;
+    }
+
+  .outstandingProducts{
+    margin-top: 370px !important;
+  }
+
+
+  .content-img-slider{
+    position: absolute !important;
+    top: 102px;
+    left: 0px;
+    height: 200px;
+    width: 100%;
+    /* background-color: white; */
+    /* border: 1px solid red; */
+  }
+
+  .force-height{
+    height: 309px !important;
+  }
+
+  .img-slider{
+  
+    display: block !important;
+    height: auto !important;
+    float: left;
+    /* height: 170px !important; */
+    /* height: 227px !important; */
+    width: 100% !important;
+    border: 0;
+    /* margin-top: 10px; */
+    object-fit: contain;
+  }
+
+  .headermain {
+    top:0px;
+  }
+  }
+
+
+  .react-datepicker{
+    width: 300px !important;
+  }
+
+  .react-datepicker__header {
+    width: 297px !important;
+    height: 60px !important;
+  }
+
+  .react-datepicker__day-name, .react-datepicker__day, .react-datepicker__time-name {
+    float: left !important;
+    width: 12.285714% !important;
+    height: 40px !important;
+    margin-top: 5px !important;
+    position: relative !important;
+    font-size: 2.1em !important;
+  }
+
+  .react-datepicker__current-month, .react-datepicker-time__header, .react-datepicker-year-header {
+    font-size: 2.1em !important;
+  }
+
+  /* .react-datepicker-popper{
+    z-index: 1000 !important;
+  }   */
